@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@300&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.Container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.background-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+
+  from { background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('84631.jpg');}
+  to { background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('670746.jpg');}
+}
+.logo {
+     margin: 0;
+     position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.logo img{
+    height : 120px;
+    width : 120px;
+    border-radius: 30px;
+}
+.center{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+}
+.Font{
+    position: absolute;
+    top: 210px;
+    text-align: center;
+}
+.Font h1{
+    color: #fff;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    font-size: 5vw;
+}
+.Font h2{
+    color: #fff;
+    font-size: 30px;
+}
+.Font h3{
+    font-size: 20px;
+    color: #fff;
+}
+.btn{
+    position: absolute;
+    bottom: 120px;
+}
+a{
+    bottom: 170px;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    padding: 20px 36px;
+    margin: 10px 0;
+    border-radius: 40px;
+    color: #fff;
+    background: #000;
+}
